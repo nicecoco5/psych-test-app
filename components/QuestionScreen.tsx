@@ -13,8 +13,8 @@ interface QuestionScreenProps {
 
 const COLORS = ['bg-orange-100', 'bg-sky-100', 'bg-purple-100', 'bg-rose-100'];
 
-const QuestionScreen: React.FC<QuestionScreenProps> = ({ 
-  question, currentStep, totalSteps, onSelect, onPrev 
+const QuestionScreen: React.FC<QuestionScreenProps> = ({
+  question, currentStep, totalSteps, onSelect, onPrev
 }) => {
   return (
     <div className="flex flex-col h-full animate-in fade-in slide-in-from-right duration-700">
@@ -28,7 +28,7 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
             <button
               key={idx}
               onClick={() => onSelect(option)}
-              className={`${COLORS[idx % COLORS.length]} border-[1.5px] border-black p-5 text-left text-xl font-bold rounded-full shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] button-bounce`}
+              className={`${COLORS[idx % COLORS.length]} border-[1.5px] border-black p-5 text-left text-xl font-bold rounded-full shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] button-bounce whitespace-pre-wrap`}
             >
               {option.text}
             </button>

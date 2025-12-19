@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#e9d5ff" stroke="black" stroke-width="8"/>
+  
+  <!-- Lavender Stems -->
+  <path d="M256 400 Q 256 300 256 200" stroke="#7e22ce" stroke-width="12" stroke-linecap="round"/>
+  <path d="M256 400 Q 220 300 200 220" stroke="#7e22ce" stroke-width="10" stroke-linecap="round"/>
+  <path d="M256 400 Q 290 300 310 220" stroke="#7e22ce" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Lavender Buds (Main Stem) -->
+  <circle cx="256" cy="180" r="15" fill="#a855f7" stroke="black" stroke-width="4"/>
+  <circle cx="256" cy="150" r="12" fill="#a855f7" stroke="black" stroke-width="4"/>
+  <circle cx="256" cy="125" r="10" fill="#a855f7" stroke="black" stroke-width="4"/>
+  
+  <!-- Side Stems Buds -->
+  <circle cx="200" cy="200" r="12" fill="#c084fc" stroke="black" stroke-width="4"/>
+  <circle cx="200" cy="175" r="10" fill="#c084fc" stroke="black" stroke-width="4"/>
+  
+  <circle cx="310" cy="200" r="12" fill="#c084fc" stroke="black" stroke-width="4"/>
+  <circle cx="310" cy="175" r="10" fill="#c084fc" stroke="black" stroke-width="4"/>
+
+  <!-- Character Face (On a central bulb/leaf wrapper at bottom?) -->
+  <!-- Let's make the base of the stems a cute bulb character -->
+  <ellipse cx="256" cy="380" rx="50" ry="40" fill="#a855f7" stroke="black" stroke-width="6"/>
+  
+  <!-- Face -->
+  <circle cx="240" cy="375" r="4" fill="black"/> <!-- Left Eye -->
+  <circle cx="272" cy="375" r="4" fill="black"/> <!-- Right Eye -->
+  <path d="M250 385 Q 256 390 262 385" stroke="black" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cheeks -->
+  <circle cx="230" cy="380" r="4" fill="#fbcfe8" opacity="0.6"/>
+  <circle cx="282" cy="380" r="4" fill="#fbcfe8" opacity="0.6"/>
+
+</svg>

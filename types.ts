@@ -45,6 +45,7 @@ export interface PersonalityType {
   celebs?: string[];
   match?: { good: string; complementary: string };
   traits?: Trait[];
+  imagePath?: string;
   characterPrompt: string;
   themeColor: string;
   mentorVoice?: string;

@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#bfdbfe" stroke="black" stroke-width="8"/>
+
+  <!-- Stem Arched -->
+  <path d="M280 450 C 280 350 320 200 200 150" stroke="#15803d" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+  <!-- Bell Flower 1 Hanging -->
+  <g transform="translate(200, 150) rotate(15)">
+    <path d="M0 0 C -30 20 -40 60 -20 80 L 20 80 C 40 60 30 20 0 0" fill="#3b82f6" stroke="black" stroke-width="6"/>
+    <path d="M-20 80 Q 0 90 20 80" fill="#2563eb" stroke="black" stroke-width="6"/>
+  </g>
+
+  <!-- Bell Flower 2 Hanging (Main Character) -->
+  <g transform="translate(240, 250)">
+     <!-- Cap/Sepals -->
+    <path d="M0 -60 L -20 -40 L 20 -40 Z" fill="#15803d" stroke="black" stroke-width="6"/>
+    <!-- Bell Body -->
+    <path d="M0 -40 C -60 -20 -60 60 -40 80 L 40 80 C 60 60 60 -20 0 -40" fill="#3b82f6" stroke="black" stroke-width="6"/>
+    <!-- Bottom Rim -->
+    <path d="M-40 80 Q -20 95 0 85 Q 20 95 40 80" stroke="black" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <!-- Face -->
+    <circle cx="-15" cy="20" r="5" fill="black"/> <!-- Eye -->
+    <circle cx="15" cy="20" r="5" fill="black"/> <!-- Eye -->
+    <!-- Winking eye line option? No, simple. -->
+    
+    <!-- Smile -->
+    <path d="M-10 30 Q 0 40 10 30" stroke="black" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Cheeks -->
+    <circle cx="-25" cy="30" r="5" fill="#fca5a5" opacity="0.6"/>
+    <circle cx="25" cy="30" r="5" fill="#fca5a5" opacity="0.6"/>
+  </g>
+
+</svg>

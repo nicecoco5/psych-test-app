@@ -7,10 +7,10 @@ export const QUESTIONS: Question[] = [
     category: "사회적 에너지",
     question: "주말 저녁, 친구가 갑자기 약속을 잡는다면?",
     options: [
-      { text: "좋아! 바로 나가자!", scores: { E: 3 } },
-      { text: "괜찮은데, 어디서 뭐 해?", scores: { E: 1, C: 1 } },
-      { text: "오늘은 좀 쉬고 싶은데...", scores: { I: 2 } },
-      { text: "미안, 다음에 만나자", scores: { I: 3 } },
+      { text: "  좋아! 바로 나가자!", scores: { E: 3 } },
+      { text: "  괜찮은데, 어디서 뭐 해?", scores: { E: 1, C: 1 } },
+      { text: "  오늘은 좀 쉬고 싶은데...", scores: { I: 2 } },
+      { text: "  미안, 다음에 만나자", scores: { I: 3 } },
     ]
   },
   {
@@ -18,10 +18,10 @@ export const QUESTIONS: Question[] = [
     category: "의사결정 스타일",
     question: "새로운 프로젝트를 시작할 때?",
     options: [
-      { text: "일단 시작하고 수정하면서 간다", scores: { P: 3, O: 1 } },
-      { text: "큰 그림을 그리고 시작한다", scores: { O: 2, C: 1 } },
-      { text: "계획을 세밀하게 짠다", scores: { C: 3 } },
-      { text: "비슷한 프로젝트 경험을 참고한다", scores: { S: 2, C: 1 } },
+      { text: "  일단 시작하고 수정하면서 간다", scores: { P: 3, O: 1 } },
+      { text: "  큰 그림을 그리고 시작한다", scores: { O: 2, C: 1 } },
+      { text: "  계획을 세밀하게 짠다", scores: { C: 3 } },
+      { text: "  비슷한 프로젝트 경험을 참고한다", scores: { S: 2, C: 1 } },
     ]
   },
   {
@@ -29,10 +29,10 @@ export const QUESTIONS: Question[] = [
     category: "공감 스타일",
     question: "친구가 힘든 고민을 털어놓을 때?",
     options: [
-      { text: "같이 공감하며 위로한다", scores: { F: 3, A: 1 } },
-      { text: "해결책을 제시한다", scores: { T: 3 } },
-      { text: "조용히 들어준다", scores: { A: 2, I: 1 } },
-      { text: "비슷한 내 경험을 이야기한다", scores: { E: 2, F: 1 } },
+      { text: "  같이 공감하며 위로한다", scores: { F: 3, A: 1 } },
+      { text: "  해결책을 제시한다", scores: { T: 3 } },
+      { text: "  조용히 들어준다", scores: { A: 2, I: 1 } },
+      { text: "  비슷한 내 경험을 이야기한다", scores: { E: 2, F: 1 } },
     ]
   },
   {
@@ -40,10 +40,10 @@ export const QUESTIONS: Question[] = [
     category: "스트레스 대처",
     question: "스트레스를 받을 때 당신은?",
     options: [
-      { text: "사람들과 만나서 푼다", scores: { E: 3 } },
-      { text: "운동이나 취미로 발산한다", scores: { N: 2, O: 1 } },
-      { text: "혼자 조용히 쉰다", scores: { I: 3 } },
-      { text: "잠을 자거나 멍 때린다", scores: { I: 2, S: 1 } },
+      { text: "  사람들과 만나서 푼다", scores: { E: 3 } },
+      { text: "  운동이나 취미로 발산한다", scores: { N: 2, O: 1 } },
+      { text: "  혼자 조용히 쉰다", scores: { I: 3 } },
+      { text: "  잠을 자거나 멍 때린다", scores: { I: 2, S: 1 } },
     ]
   },
   {
@@ -51,10 +51,10 @@ export const QUESTIONS: Question[] = [
     category: "변화 대응",
     question: "여행지에서 계획에 없던 장소를 발견했다면?",
     options: [
-      { text: "당연히 들어가본다!", scores: { O: 3, P: 2 } },
-      { text: "정보를 찾아보고 결정한다", scores: { C: 2, T: 1 } },
-      { text: "일정이 괜찮으면 간다", scores: { A: 2 } },
-      { text: "원래 계획대로 간다", scores: { S: 3, C: 1 } },
+      { text: "  당연히 들어가본다!", scores: { O: 3, P: 2 } },
+      { text: "  정보를 찾아보고 결정한다", scores: { C: 2, T: 1 } },
+      { text: "  일정이 괜찮으면 간다", scores: { A: 2 } },
+      { text: "  원래 계획대로 간다", scores: { S: 3, C: 1 } },
     ]
   },
   {
@@ -62,10 +62,10 @@ export const QUESTIONS: Question[] = [
     category: "팀 역할",
     question: "팀 프로젝트에서 당신의 자연스러운 역할은?",
     options: [
-      { text: "리더로서 팀을 이끈다", scores: { E: 3, N: 1 } },
-      { text: "창의적 아이디어를 제안한다", scores: { O: 3 } },
-      { text: "분위기를 부드럽게 만든다", scores: { A: 3 } },
-      { text: "맡은 일을 완벽히 해낸다", scores: { C: 3 } },
+      { text: "  리더로서 팀을 이끈다", scores: { E: 3, N: 1 } },
+      { text: "  창의적 아이디어를 제안한다", scores: { O: 3 } },
+      { text: "  분위기를 부드럽게 만든다", scores: { A: 3 } },
+      { text: "  맡은 일을 완벽히 해낸다", scores: { C: 3 } },
     ]
   },
   {
@@ -73,10 +73,10 @@ export const QUESTIONS: Question[] = [
     category: "의사 표현",
     question: "SNS에 글을 쓸 때?",
     options: [
-      { text: "생각나는 대로 바로 올린다", scores: { E: 2, P: 2 } },
-      { text: "신중하게 고민 후 올린다", scores: { I: 2, C: 1 } },
-      { text: "편집하고 다듬어서 올린다", scores: { C: 2, F: 1 } },
-      { text: "거의 안 올린다", scores: { I: 3 } },
+      { text: "  생각나는 대로 바로 올린다", scores: { E: 2, P: 2 } },
+      { text: "  신중하게 고민 후 올린다", scores: { I: 2, C: 1 } },
+      { text: "  편집하고 다듬어서 올린다", scores: { C: 2, F: 1 } },
+      { text: "  거의 안 올린다", scores: { I: 3 } },
     ]
   },
   {
@@ -84,10 +84,10 @@ export const QUESTIONS: Question[] = [
     category: "변화 수용",
     question: "갑작스러운 계획 변경이 생긴다면?",
     options: [
-      { text: "오히려 좋아! 새로운 기회다", scores: { O: 3, E: 1 } },
-      { text: "일단 적응해본다", scores: { A: 2 } },
-      { text: "불안하지만 해낸다", scores: { C: 2, I: 1 } },
-      { text: "당황스럽고 힘들다", scores: { S: 3 } },
+      { text: "  오히려 좋아! 새로운 기회다", scores: { O: 3, E: 1 } },
+      { text: "  일단 적응해본다", scores: { A: 2 } },
+      { text: "  불안하지만 해낸다", scores: { C: 2, I: 1 } },
+      { text: "  당황스럽고 힘들다", scores: { S: 3 } },
     ]
   }
 ];
@@ -98,11 +98,11 @@ export const GROWTH_QUESTIONS: Question[] = [
     category: "자기 주도성",
     question: "외부 압박 없이 스스로 목표를 세우고 주도적으로 시작하는가?",
     options: [
-      { text: "전혀 아니다", scores: { SCORE: 1 } },
-      { text: "아니다", scores: { SCORE: 2 } },
-      { text: "보통이다", scores: { SCORE: 3 } },
-      { text: "그렇다", scores: { SCORE: 4 } },
-      { text: "매우 그렇다", scores: { SCORE: 5 } },
+      { text: "  전혀 아니다", scores: { SCORE: 1 } },
+      { text: "  아니다", scores: { SCORE: 2 } },
+      { text: "  보통이다", scores: { SCORE: 3 } },
+      { text: "  그렇다", scores: { SCORE: 4 } },
+      { text: "  매우 그렇다", scores: { SCORE: 5 } },
     ]
   },
   {
@@ -110,11 +110,11 @@ export const GROWTH_QUESTIONS: Question[] = [
     category: "회복 탄력성",
     question: "실패나 역경 후 다시 일어서는 회복 속도가 빠른가?",
     options: [
-      { text: "전혀 아니다", scores: { SCORE: 1 } },
-      { text: "아니다", scores: { SCORE: 2 } },
-      { text: "보통이다", scores: { SCORE: 3 } },
-      { text: "그렇다", scores: { SCORE: 4 } },
-      { text: "매우 그렇다", scores: { SCORE: 5 } },
+      { text: "  전혀 아니다", scores: { SCORE: 1 } },
+      { text: "  아니다", scores: { SCORE: 2 } },
+      { text: "  보통이다", scores: { SCORE: 3 } },
+      { text: "  그렇다", scores: { SCORE: 4 } },
+      { text: "  매우 그렇다", scores: { SCORE: 5 } },
     ]
   },
   {
@@ -122,11 +122,11 @@ export const GROWTH_QUESTIONS: Question[] = [
     category: "개방성",
     question: "새로운 지식이나 변화를 수용하고 시도하는 데 거부감이 없는가?",
     options: [
-      { text: "전혀 아니다", scores: { SCORE: 1 } },
-      { text: "아니다", scores: { SCORE: 2 } },
-      { text: "보통이다", scores: { SCORE: 3 } },
-      { text: "그렇다", scores: { SCORE: 4 } },
-      { text: "매우 그렇다", scores: { SCORE: 5 } },
+      { text: "  전혀 아니다", scores: { SCORE: 1 } },
+      { text: "  아니다", scores: { SCORE: 2 } },
+      { text: "  보통이다", scores: { SCORE: 3 } },
+      { text: "  그렇다", scores: { SCORE: 4 } },
+      { text: "  매우 그렇다", scores: { SCORE: 5 } },
     ]
   },
   {
@@ -134,11 +134,11 @@ export const GROWTH_QUESTIONS: Question[] = [
     category: "지속성",
     question: "정해진 루틴이나 계획을 포기하지 않고 끝까지 완수하는가?",
     options: [
-      { text: "전혀 아니다", scores: { SCORE: 1 } },
-      { text: "아니다", scores: { SCORE: 2 } },
-      { text: "보통이다", scores: { SCORE: 3 } },
-      { text: "그렇다", scores: { SCORE: 4 } },
-      { text: "매우 그렇다", scores: { SCORE: 5 } },
+      { text: "  전혀 아니다", scores: { SCORE: 1 } },
+      { text: "  아니다", scores: { SCORE: 2 } },
+      { text: "  보통이다", scores: { SCORE: 3 } },
+      { text: "  그렇다", scores: { SCORE: 4 } },
+      { text: "  매우 그렇다", scores: { SCORE: 5 } },
     ]
   },
   {
@@ -146,11 +146,11 @@ export const GROWTH_QUESTIONS: Question[] = [
     category: "메타인지",
     question: "자신의 강점과 약점을 객관적으로 파악하고 있는가?",
     options: [
-      { text: "전혀 아니다", scores: { SCORE: 1 } },
-      { text: "아니다", scores: { SCORE: 2 } },
-      { text: "보통이다", scores: { SCORE: 3 } },
-      { text: "그렇다", scores: { SCORE: 4 } },
-      { text: "매우 그렇다", scores: { SCORE: 5 } },
+      { text: "  전혀 아니다", scores: { SCORE: 1 } },
+      { text: "  아니다", scores: { SCORE: 2 } },
+      { text: "  보통이다", scores: { SCORE: 3 } },
+      { text: "  그렇다", scores: { SCORE: 4 } },
+      { text: "  매우 그렇다", scores: { SCORE: 5 } },
     ]
   }
 ];
@@ -164,6 +164,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     emoji: "🚀",
     oneLiner: "새로운 경험을 즐기는 자유로운 영혼",
     themeColor: "#f9a8d4",
+    imagePath: "/images/personality_eo.png",
     characterPrompt: "Adorable chibi kitty with big sparkling eyes, wearing a cool futuristic rocket backpack, jumping with joy inside a bright circular background, kawaii pop-art sticker style, thick black outlines, vivid sky blue and hot pink color palette, flat vector illustration, super cute adventure vibe.",
     description: "당신은 일상의 틀을 벗어나 새로운 것을 시도하는 걸 좋아합니다. 변화를 두려워하지 않고 오히려 즐기며, 틀에 박힌 루틴보다는 예측 불가능한 모험을 선호합니다. 창의적 아이디어가 샘솟고 빠르게 행동으로 옮기는 당신은 주변에 활력을 불어넣습니다.",
     keywords: ["⚡ 창의적", "🎨 모험적", "🌟 열정적"],
@@ -197,6 +198,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Leader",
     emoji: "👑",
     themeColor: "#bae6fd",
+    imagePath: "/images/personality_ec.png",
     characterPrompt: "Adorable chibi shiba inu dog wearing a tiny golden crown and a royal red cape, sitting proudly inside a perfect bright circular background, kawaii pop-art sticker style, thick black outlines, royal blue and gold colors, flat vector illustration, cute and confident leader look.",
     oneLiner: "목표를 향해 팀을 이끄는 타고난 리더",
     description: "사교적이면서도 체계적인 당신은 팀을 이끄는 데 타고난 재능이 있습니다. 명확한 목표를 세우고 효율적으로 달성하는 추진력이 강하며, 책임감 있게 일을 완수합니다. 사람들과 소통하며 함께 성장하는 걸 즐깁니다.",
@@ -231,6 +233,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Sunshine",
     emoji: "🌻",
     themeColor: "#fee440",
+    imagePath: "/images/personality_ef.png",
     characterPrompt: "Adorable round chibi sun monster with a bright yellow flower petal mane and a huge happy smile, inside a warm peach circular background, kawaii pop-art sticker style, thick black outlines, vibrant yellow and orange colors, flat vector illustration, joyful and friendly energy.",
     oneLiner: "따뜻한 마음으로 사람들을 끌어안는 햇살",
     description: "사람들과 함께 있을 때 가장 행복한 당신. 공감 능력이 뛰어나고 다른 사람의 감정을 잘 이해합니다. 자연스럽게 분위기를 밝게 만들고 주변 사람들에게 긍정적인 에너지를 전달합니다.",
@@ -265,6 +268,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Thinker",
     emoji: "🎨",
     themeColor: "#9b5de5",
+    imagePath: "/images/personality_io.png",
     characterPrompt: "Adorable chibi cosmic owl wearing a small artist beret and holding a paintbrush, feathers with nebula patterns, sitting inside a mystical purple circular background with tiny stars, kawaii pop-art sticker style, thick black outlines, deep indigo and violet colors, flat vector illustration, creative and deep thinker look.",
     oneLiner: "깊이 있는 내면 세계를 가진 예술가",
     description: "내면의 세계가 풍부한 당신은 독창적이고 철학적인 사고를 합니다. 혼자만의 시간을 통해 에너지를 충전하며, 깊이 있는 사색과 창의적 표현을 즐깁니다. 평범함보다는 의미 있는 것을 추구합니다.",
@@ -299,6 +303,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Analyst",
     emoji: "🔬",
     themeColor: "#00f5d4",
+    imagePath: "/images/personality_ic.png",
     characterPrompt: "Adorable chibi robotic kitty with large sparkling expressive eyes and cute glowing holographic glasses, sitting inside a perfect bright circular background with soft binary code patterns, kawaii pop-art sticker style, thick black outlines, mint green and silver metallic color palette, flat vector illustration, super cute and smart look.",
     oneLiner: "논리적이고 체계적인 문제 해결사",
     description: "신중하고 분석적인 당신은 논리와 데이터를 바탕으로 의사결정합니다. 체계적으로 계획을 세우고 정확하게 실행하는 걸 중요하게 생각합니다. 복잡한 문제를 차근차근 해결하는 능력이 뛰어납니다.",
@@ -333,6 +338,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Guardian",
     emoji: "🛡️",
     themeColor: "#86efac",
+    imagePath: "/images/personality_ia.png",
     characterPrompt: "Adorable chibi turtle with a tiny forest garden on its shell, peaceful and reliable expression, sitting inside a soft green circular background, kawaii pop-art sticker style, thick black outlines, forest green and earthy brown colors, flat vector illustration, calm and stable look.",
     oneLiner: "조용하지만 든든한 지원군",
     description: "신뢰할 수 있고 성실한 당신은 묵묵히 자기 역할을 다합니다. 화려하지 않지만 꾸준하고 책임감 있게 일을 완수하며, 주변 사람들을 조용히 지원합니다. 안정적이고 믿을 수 있는 존재입니다.",
@@ -367,6 +373,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Mediator",
     emoji: "🕊️",
     themeColor: "#fecdd3",
+    imagePath: "/images/personality_af.png",
     characterPrompt: "Adorable fluffy chibi cloud-sheep holding a tiny green leaf, peaceful closed eyes, sitting inside a soft pastel pink circular background, kawaii pop-art sticker style, thick black outlines, marshmallow white and mint green colors, flat vector illustration, gentle and harmonious look.",
     oneLiner: "평화와 조화를 만드는 중재자",
     description: "갈등을 싫어하고 모두가 행복한 조화를 추구합니다. 다른 사람의 입장을 이해하고 배려하며, 중간에서 균형을 맞추는 능력이 탁월합니다. 부드럽지만 강한 영향력을 발휘합니다.",
@@ -401,6 +408,7 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     englishTitle: "The Innovator",
     emoji: "💡",
     themeColor: "#fef9c3",
+    imagePath: "/images/personality_no.png",
     characterPrompt: "Adorable chibi visionary robot with a glowing glass lightbulb as its head, sparking lightning antennae, sitting inside a bright yellow circular background with light rays, kawaii pop-art sticker style, thick black outlines, electric yellow and white colors, flat vector illustration, curious and futuristic look.",
     oneLiner: "독립적으로 미래를 그리는 비전가",
     description: "독창적인 아이디어로 새로운 것을 만들어냅니다. 남들이 가지 않은 길을 개척하며, 독립적으로 일하는 걸 선호합니다. 미래 지향적이고 혁신적인 사고로 세상을 바꿉니다.",
@@ -437,7 +445,8 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     emoji: "🧘",
     oneLiner: "잠재적 탐색가: 내면의 치유와 안정이 우선인 단계",
     themeColor: "#e9d5ff",
-    characterPrompt: "Pop-art illustration of a cute floating seed with soft lavender petals, dreamy expression, soft pastel purple background, 2D vector sticker style, thick black outlines, aesthetic and calm mood.",
+    imagePath: "/images/growth_lavender.svg",
+    characterPrompt: "A cute lavender plant character with vertical purple stems and buds, featuring a small kawaii face at the base, set on a soft pastel purple circular background. Simple 2D flat vector graphic style.",
     description: "당신은 현재 깊은 내면의 목소리에 귀를 기울이고 있는 상태입니다. 큰 도약보다는 현재의 안정을 유지하며 자신을 돌보는 것이 가장 중요한 시기입니다. 당신 안에는 엄청난 잠재력이 숨겨져 있지만, 지금은 서두르지 않아도 괜찮습니다.",
     keywords: ["🌿 치유", "🧘 안정", "🔍 탐색"],
     powers: [
@@ -463,7 +472,8 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     emoji: "⚡",
     oneLiner: "열정적 시작가: 아이디어는 풍부하나 실행의 집중이 필요한 단계",
     themeColor: "#fef08a",
-    characterPrompt: "Pop-art illustration of a bright yellow bouncy spring character with sparking eyes, energetic movement, soft pastel yellow and orange background, 2D vector sticker style, thick black outlines, vibrant and joyful mood.",
+    imagePath: "/images/growth_yellow.svg",
+    characterPrompt: "A cheerful sunflower character with bright yellow petals and a happy brown face in the center, set on a pale yellow circular background. Simple 2D flat vector graphic style.",
     description: "당신은 지금 새로운 아이디어와 열정으로 가득 차 있습니다! 무엇이든 시작할 준비가 되어 있지만, 때로는 너무 많은 생각 때문에 에너지가 분산되기도 합니다. 이제는 선택과 집중을 통해 결과를 만들어낼 때입니다.",
     keywords: ["⚡ 열정", "💡 아이디어", "🏃 실행"],
     powers: [
@@ -489,7 +499,8 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     emoji: "🌱",
     oneLiner: "균형 잡힌 성장가: 안정적 궤도에서 꾸준히 나아가는 단계",
     themeColor: "#bbf7d0",
-    characterPrompt: "Pop-art illustration of a sturdy green sprout growing from a small rock, balanced and strong, soft pastel mint green background, 2D vector sticker style, thick black outlines, stable and healthy growth mood.",
+    imagePath: "/images/growth_green.svg",
+    characterPrompt: "A cute bean sprout character with two green leaves and a small face on the bean head, growing from a soil mound, set on a mint green circular background. Simple 2D flat vector graphic style.",
     description: "당신은 현재 아주 이상적인 성장 궤도에 올라와 있습니다. 계획한 대로 꾸준히 나아가고 있으며, 일과 삶의 균형을 잘 유지하고 있습니다. 지금의 루틴을 믿고 지속한다면 곧 큰 결실을 보게 될 것입니다.",
     keywords: ["🌱 꾸준함", "⚖️ 균형", "📈 성장"],
     powers: [
@@ -515,7 +526,8 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     emoji: "🌊",
     oneLiner: "전략적 달성가: 데이터를 통해 효율적으로 목표를 쟁취하는 단계",
     themeColor: "#bfdbfe",
-    characterPrompt: "Pop-art illustration of a sleek blue dolphin-like robot with digital patterns, swimming through binary waves, soft pastel periwinkle blue background, 2D vector sticker style, thick black outlines, smart and strategic mood.",
+    imagePath: "/images/growth_blue.svg",
+    characterPrompt: "A cute bluebell flower character hanging gently, with a simple smiling face on the bell, set on a light blue circular background. Simple 2D flat vector graphic style.",
     description: "당신은 매우 효율적이고 전략적인 사람입니다. 목표를 달성하기 위해 무엇이 필요한지 정확히 알고 있으며, 감정보다는 논리와 데이터를 바탕으로 움직입니다. 당신의 추진력은 타의 추종을 불허합니다.",
     keywords: ["📊 전략", "🎯 목표", "💻 효율"],
     powers: [
@@ -541,7 +553,8 @@ export const PERSONALITY_TYPES: PersonalityType[] = [
     emoji: "🔥",
     oneLiner: "창조적 변혁가: 독보적 영감으로 주변에 영향력을 끼치는 단계",
     themeColor: "#fbcfe8",
-    characterPrompt: "Pop-art illustration of a glowing magenta butterfly with electric patterns on wings, flying upward, soft pastel rose and magenta background, 2D vector sticker style, thick black outlines, creative and influential mood.",
+    imagePath: "/images/growth_magenta.svg",
+    characterPrompt: "A happy magenta hibiscus flower character with five petals and a central smiley face, adorned with sparkles, set on a soft pink circular background. Simple 2D flat vector graphic style.",
     description: "당신은 이미 존재 자체로 빛나는 영향력을 가지고 있습니다! 남들과 다른 독창적인 시각으로 세상을 바라보며, 새로운 트렌드를 창조합니다. 당신의 성장은 이미 개인을 넘어 주변을 변화시키고 있습니다.",
     keywords: ["💡 영감", "🔥 영향력", "🎨 창조"],
     powers: [

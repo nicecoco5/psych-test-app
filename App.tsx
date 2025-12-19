@@ -48,7 +48,7 @@ const App: React.FC = () => {
     ];
 
     for (const check of checks) {
-      if (check.traits.every(t => topTraits.includes(t as Trait))) {
+      if (check.traits.every(t => topTraits.includes(t as Exclude<Trait, 'SCORE'>))) {
         return PERSONALITY_TYPES.find(p => p.id === check.id && p.testId === 'PERSONALITY');
       }
     }

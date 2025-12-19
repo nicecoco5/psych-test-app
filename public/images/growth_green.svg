@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#bbf7d0" stroke="black" stroke-width="8"/>
+
+  <!-- Soil Mound -->
+  <path d="M156 420 Q 256 380 356 420" fill="#78350f" stroke="black" stroke-width="6"/>
+
+  <!-- Stem -->
+  <path d="M256 400 C 256 350 280 300 256 256" stroke="#22c55e" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- Head/Bean -->
+  <ellipse cx="256" cy="240" rx="60" ry="50" fill="#86efac" stroke="black" stroke-width="6"/>
+
+  <!-- Leaves on top -->
+  <path d="M256 190 Q 200 150 180 200" fill="#4ade80" stroke="black" stroke-width="6"/> <!-- Left Leaf -->
+  <path d="M180 200 Q 220 220 256 190" fill="#4ade80" stroke="black" stroke-width="6"/> 
+
+  <path d="M256 190 Q 312 150 332 200" fill="#4ade80" stroke="black" stroke-width="6"/> <!-- Right Leaf -->
+  <path d="M332 200 Q 292 220 256 190" fill="#4ade80" stroke="black" stroke-width="6"/>
+
+  <!-- Face on the Bean -->
+  <circle cx="236" cy="240" r="6" fill="black"/>
+  <circle cx="276" cy="240" r="6" fill="black"/>
+  <path d="M256 245 Q 256 250 256 255" stroke="black" stroke-width="4" stroke-linecap="round"/> <!-- Tiny mouth o -->
+  
+  <!-- Cheeks -->
+  <circle cx="226" cy="245" r="5" fill="#fca5a5" opacity="0.6"/>
+  <circle cx="286" cy="245" r="5" fill="#fca5a5" opacity="0.6"/>
+</svg>
