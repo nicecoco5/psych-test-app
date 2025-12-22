@@ -44,21 +44,21 @@ const MainScreen: React.FC<MainScreenProps> = ({ onStart, onOpenCollection }) =>
           onClick={() => onStart('PERSONALITY')}
           className="pop-font text-2xl px-10 py-5 bg-gradient-to-r from-orange-300 to-pink-300 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce transition-all text-gray-800 tracking-wider"
         >
-          숨겨진 성격 찾기 ✨
+          숨겨진 성격 찾기
         </button>
 
         <button
           onClick={() => onStart('GROWTH')}
           className="pop-font text-2xl px-10 py-5 bg-gradient-to-r from-sky-300 to-emerald-300 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce transition-all text-gray-800 tracking-wider"
         >
-          성장 컬러 진단 🎨
+          성장 컬러 진단
         </button>
 
         <button
           onClick={onOpenCollection}
           className="pop-font text-lg text-gray-400 hover:text-gray-600 transition-colors"
         >
-          캐릭터 도감 구경하기 📚
+          캐릭터 도감 구경하기
         </button>
       </div>
     </div>
