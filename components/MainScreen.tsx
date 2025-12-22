@@ -10,8 +10,8 @@ const MainScreen: React.FC<MainScreenProps> = ({ onStart, onOpenCollection }) =>
   return (
     <div className="flex flex-col items-center text-center py-4 animate-in fade-in duration-1000">
       <div className="relative mb-14">
-        <div className="absolute -top-16 -left-12 px-6 py-2 bg-white rounded-full border-[1.5px] border-black -rotate-12 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-0">
-          <span className="pop-font text-orange-400 text-2xl tracking-widest">즐거움!</span>
+        <div className="absolute -top-12 -left-8 px-6 py-2 bg-white rounded-full border-[1.5px] border-black -rotate-12 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-20 hover:scale-110 transition-transform">
+          <span className="pop-font text-orange-600 text-2xl tracking-widest font-black">즐거움!</span>
         </div>
 
         <h1 className="pop-font text-6xl sm:text-7xl leading-tight text-gray-800 relative z-10 drop-shadow-sm">
@@ -29,7 +29,7 @@ const MainScreen: React.FC<MainScreenProps> = ({ onStart, onOpenCollection }) =>
           <img
             src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=400"
             alt="Joyful Abstract"
-            className="w-full h-full object-cover rounded-full grayscale group-hover:grayscale-0 transition-all duration-700"
+            className="w-full h-full object-cover rounded-full transition-all duration-700 group-hover:saturate-200 group-hover:scale-110"
           />
         </div>
         <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white border border-black px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest shadow-sm group-hover:bg-yellow-200 transition-colors">숨겨진 성격 찾기</div>
