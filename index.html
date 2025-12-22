@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,7 @@
             --soft-purple: #e9d5ff;
             --deep-gray: #374151;
         }
+
         body {
             font-family: 'SUIT', sans-serif;
             background: linear-gradient(135deg, #fdf4ff 0%, #e0f2fe 50%, #fff7ed 100%);
@@ -22,17 +23,21 @@
             overflow-x: hidden;
             font-weight: 500;
         }
+
         .pop-font {
             font-family: 'SUIT', sans-serif;
             font-weight: 900;
         }
+
         .organic-border {
             border: 1.5px solid #000;
             border-radius: 2rem;
         }
+
         .dreamy-shadow {
-            box-shadow: 6px 6px 20px rgba(0,0,0,0.05), 4px 4px 0px 0px rgba(0,0,0,1);
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05), 4px 4px 0px 0px rgba(0, 0, 0, 1);
         }
+
         .flow-bg {
             position: fixed;
             top: 0;
@@ -41,22 +46,24 @@
             height: 100%;
             z-index: -1;
             opacity: 0.4;
-            background: 
+            background:
                 radial-gradient(circle at 10% 20%, var(--joy-pink) 0%, transparent 40%),
                 radial-gradient(circle at 90% 80%, var(--dream-blue) 0%, transparent 40%),
                 radial-gradient(circle at 50% 50%, var(--soft-purple) 0%, transparent 50%);
             filter: blur(80px);
         }
+
         .button-bounce:hover {
             transform: scale(1.02) translateY(-2px);
-            box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+            box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
         }
+
         .button-bounce:active {
             transform: scale(0.98) translateY(1px);
-            box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
         }
     </style>
-<script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.2.3",
@@ -68,11 +75,19 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.0/kakao.min.js" crossorigin="anonymous"></script>
+    <script>
+        if (typeof Kakao !== 'undefined' && !Kakao.isInitialized()) {
+            Kakao.init('%VITE_KAKAO_APP_KEY%');
+        }
+    </script>
+    <link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
     <div class="flow-bg"></div>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
