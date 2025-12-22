@@ -27,33 +27,6 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart }) => {
       setTimeout(() => setCopied(false), 2000);
     }
   };
-  const handleKakaoShare = () => {
-    if (window.Kakao && window.Kakao.isInitialized()) {
-      window.Kakao.Share.sendDefault({
-        objectType: 'feed',
-        content: {
-          title: result.title,
-          description: result.oneLiner,
-          imageUrl: result.imagePath || 'https://placehold.co/600x400/png',
-          link: {
-            mobileWebUrl: window.location.href,
-            webUrl: window.location.href,
-          },
-        },
-        buttons: [
-          {
-            title: '테스트 하러가기',
-            link: {
-              mobileWebUrl: window.location.href,
-              webUrl: window.location.href,
-            },
-          },
-        ],
-      });
-    } else {
-      handleShare(); // Fallback to general share if Kakao is not ready
-    }
-  };
 
   return (
     <div className="animate-in fade-in duration-1000 flex flex-col gap-12 pb-24">
@@ -71,8 +44,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart }) => {
         </div>
 
         <div className="flex flex-col gap-4">
-          <button onClick={handleKakaoShare} className="w-full bg-[#FEE500] text-[#191919] pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">카카오톡으로 공유하기 💬</button>
-          <button onClick={handleShare} className="w-full bg-pink-400 text-white pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">링크 복사하기 ✨</button>
+          <button onClick={handleShare} className="w-full bg-pink-400 text-white pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">결과 공유하기 ✨</button>
           <button onClick={onRestart} className="w-full bg-white text-gray-800 pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">다시 하기</button>
         </div>
       </section>
