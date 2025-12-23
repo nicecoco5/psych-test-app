@@ -45,7 +45,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart }) => {
 
         <div className="flex flex-col gap-4">
           <button onClick={handleShare} className="w-full bg-pink-400 text-white pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">결과 공유하기 ✨</button>
-          <button onClick={onRestart} className="w-full bg-white text-gray-800 pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">다시 하기</button>
+          <button onClick={onRestart} className="w-full bg-white text-gray-800 pop-font text-2xl py-5 rounded-full border-[1.5px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] button-bounce">처음으로 가기</button>
         </div>
       </section>
       {copied && <p className="text-center text-emerald-500 font-bold">링크가 복사되었습니다!</p>}
